@@ -1,6 +1,6 @@
-#  MySQL for PCF Documentation Book
+#  Cloud Cache for PCF Documentation Book
 
-This project can create and publish the documentation for MySQL for PCF as a web application.
+This project can create and publish the documentation for Cloud Cache for PCF as a web application.
 
 In this topic:
 
@@ -21,7 +21,7 @@ Bookbinder uses this centralized layout repository by default, but files in the 
 
 ## What's in this Repo
 
-Here you'll find the configuration and templates for the MySQL for PCF documentation set published to [docs.pivotal.io/p-mysql/](http://docs.pivotal.io/p-mysql/).
+Here you'll find the configuration and templates for the Cloud Cache for PCF documentation.
 
 This repository *does not* contain the actual documentation content. 
 Actual content is contained in the topic repositories listed in the `config.yml` file.
