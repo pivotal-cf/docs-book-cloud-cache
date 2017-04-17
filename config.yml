@@ -14,7 +14,8 @@ elastic_search: true
 sections:
 - repository:
     name: pivotal-cf/docs-cloud-cache
-    ref: v1.0
+    ref: 'v1.0'
+    at_path: content
   directory: p-cloud-cache/1-0
   subnav_template: cloudcache_subnav.erb
   product_info:
