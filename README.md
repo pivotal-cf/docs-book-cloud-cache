@@ -1,6 +1,6 @@
 #  Cloud Cache for PCF Documentation Book
 
-This project can create and publish the documentation for Cloud Cache for PCF as a web application.
+This project creates and publishes the documentation for Cloud Cache for PCF as a web application.
 
 In this topic:
 
