@@ -17,7 +17,7 @@ sections:
     name: pivotal-cf/docs-cloud-cache
     ref: 'v1.1-branch'
     at_path: content
-  directory: p-cloud-cache/1-1
+  directory: p-cloud-cache/1-1/
   subnav_template: cloudcache_subnav-1-1.erb
   product_info:
     use_local_header: true
@@ -30,16 +30,16 @@ sections:
     local_product_version: 1.1
     local_header_links: []
     local_header_version_list:
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-1
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-1/
         display_name: v1.1
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-0
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-0/
         display_name: v1.0
 
 - repository:
     name: pivotal-cf/docs-cloud-cache
     ref: 'v1.0-branch'
     at_path: content
-  directory: p-cloud-cache/1-0
+  directory: p-cloud-cache/1-0/
   subnav_template: cloudcache_subnav.erb
   product_info:
     use_local_header: true
@@ -52,7 +52,7 @@ sections:
     local_product_version: 1.0
     local_header_links: []
     local_header_version_list:
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-1
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-1/
         display_name: v1.1
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-0
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-0/
         display_name: v1.0
