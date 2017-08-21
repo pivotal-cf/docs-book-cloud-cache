@@ -36,6 +36,12 @@ sections:
         display_name: v1.0
 
 - repository:
+    name: pivotal-cf/docs-on-demand-service-broker
+    ref: v0.17.x
+  directory: p-cloud-cache/odb
+  no_docs: true
+
+- repository:
     name: pivotal-cf/docs-cloud-cache
     ref: 'v1.1-branch'
     at_path: content
