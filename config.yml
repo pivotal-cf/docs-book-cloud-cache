@@ -13,7 +13,7 @@ elastic_search: true
 
 sections:
 
-  - repository:
+- repository:
     name: pivotal-cf/docs-cloud-cache
     ref: 'v1.2-branch'
     at_path: content
