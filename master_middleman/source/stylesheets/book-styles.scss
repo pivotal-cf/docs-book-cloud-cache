@@ -5,3 +5,43 @@
 // .container {
 //   color: mediumvioletred;
 // }
+
+.overflow-auto {
+	width: 100%;
+	overflow: auto;
+	border-right: 1px solid #b5b5b5;
+}
+
+table.spreadsheet {
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	td,
+	th {
+		font-size: .75em;
+		min-width: 7em;
+		padding: 1em;
+		&.suggested-measurement,
+		&.suggested-actions,
+		&.why-kpi,
+		&.description {
+			min-width: 15em;
+		}
+		&.warning-threshold, {
+			min-width: 8em;
+		}
+		&.suggested-measurement,
+		&.metric-type,
+		&.critical-threshold {
+			max-width: 9em;
+		}
+		&.metric-type {
+		max-width: 7em;
+		}
+	}
+	code {
+		font-size: .9em;
+		word-break: break-all;
+	}
+}
