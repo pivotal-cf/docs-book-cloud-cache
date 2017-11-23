@@ -15,21 +15,23 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-cloud-cache
-    ref: 'v1.2-branch'
+    ref: 'master'
     at_path: content
-  directory: p-cloud-cache/1-2
-  subnav_template: cloudcache_subnav-1-2.erb
+  directory: p-cloud-cache/1-3
+  subnav_template: cloudcache_subnav-1-3.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.1
-    changelog_href: http://docs.pivotal.io/p-cloud-cache/1-1/index.html#release-notes
+    latest_stable_version: 1.2
+    changelog_href: http://docs.pivotal.io/p-cloud-cache/1-3/index.html#release-notes
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
-    search_placeholder: Search Pivotal Cloud Cache for PCF 1.2
-    url_prefix: p-cloud-cache/1-2
-    local_product_version: 1.2
+    search_placeholder: Search Pivotal Cloud Cache for PCF 1.3
+    url_prefix: p-cloud-cache/1-3
+    local_product_version: 1.3
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-2
+        display_name: v1.2
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-1
         display_name: v1.1
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-0
