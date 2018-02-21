@@ -41,7 +41,7 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-on-demand-service-broker
-    ref: 'master'
+    ref: v0.18.x
   directory: p-cloud-cache/odb
   no_docs: true
 
