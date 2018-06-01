@@ -21,13 +21,39 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-cloud-cache
+    ref: 'v1.4-branch'
+    at_path: content
+  directory: p-cloud-cache/1-4
+  subnav_template: cloudcache_subnav-1-4.erb
+  product_info:
+    use_local_header: true
+    latest_stable_version: 1.4
+    changelog_href: http://docs.pivotal.io/p-cloud-cache/1-4/index.html#release-notes
+    local_header_img: /images/cloud_rings.png
+    local_header_title: Pivotal Cloud Cache for PCF
+    search_placeholder: Search Pivotal Cloud Cache for PCF 1.4
+    url_prefix: p-cloud-cache/1-4
+    local_product_version: 1.4
+    local_header_links: []
+    local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-3
+        display_name: v1.3
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-2
+        display_name: v1.2
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-1
+        display_name: v1.1
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-0
+        display_name: v1.0
+
+- repository:
+    name: pivotal-cf/docs-cloud-cache
     ref: 'v1.3-branch'
     at_path: content
   directory: p-cloud-cache/1-3
   subnav_template: cloudcache_subnav-1-3.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.3
+    latest_stable_version: 1.4
     changelog_href: http://docs.pivotal.io/p-cloud-cache/1-3/index.html#release-notes
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
@@ -36,6 +62,8 @@ sections:
     local_product_version: 1.3
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-4
+        display_name: v1.4
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-2
         display_name: v1.2
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-1
@@ -51,7 +79,7 @@ sections:
   subnav_template: cloudcache_subnav-1-2.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.3
+    latest_stable_version: 1.4
     changelog_href: http://docs.pivotal.io/p-cloud-cache/1-2/index.html#release-notes
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
@@ -60,6 +88,8 @@ sections:
     local_product_version: 1.2
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-4
+        display_name: v1.4
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-3
         display_name: v1.3
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-1
@@ -75,7 +105,7 @@ sections:
   subnav_template: cloudcache_subnav-1-1.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.3
+    latest_stable_version: 1.4
     changelog_href: http://docs.pivotal.io/p-cloud-cache/1-1/index.html#release-notes
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
@@ -84,6 +114,8 @@ sections:
     local_product_version: 1.1
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-4
+        display_name: v1.4
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-3
         display_name: v1.3
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-2
@@ -99,7 +131,7 @@ sections:
   subnav_template: cloudcache_subnav.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.3
+    latest_stable_version: 1.0
     changelog_href: http://docs.pivotal.io/p-cloud-cache/1-0/index.html#release-notes
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
@@ -108,6 +140,8 @@ sections:
     local_product_version: 1.0
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-4
+        display_name: v1.4
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-3
         display_name: v1.3
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-2
