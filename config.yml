@@ -15,6 +15,12 @@ elastic_search: true
 sections:
 
 - repository:
+    name: pivotal-cf/docs-on-demand-service-broker
+    ref: v0.18.x
+  directory: p-cloud-cache/odb
+  no_docs: true
+
+- repository:
     name: pivotal-cf/docs-cloud-cache
     ref: 'master'
     at_path: content
@@ -42,9 +48,4 @@ sections:
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-0
         display_name: v1.0
 
-- repository:
-    name: pivotal-cf/docs-on-demand-service-broker
-    ref: v0.18.x
-  directory: p-cloud-cache/odb
-  no_docs: true
 
