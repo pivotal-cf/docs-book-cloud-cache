@@ -14,8 +14,8 @@ elastic_search: true
 
 sections:
 - repository:
-    name: pivotal-cf/docs-on-demand-service-broker
-    ref: v0.18.x
+    name: pivotal-cf/docs-services-partials
+    ref: master
   directory: p-cloud-cache/odb
   no_docs: true
 
