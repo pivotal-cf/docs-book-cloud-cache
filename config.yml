@@ -31,7 +31,7 @@ sections:
     changelog_href: http://docs.pivotal.io/p-cloud-cache/1-5/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
-    search_placeholder: Search Pivotal Cloud Cache for PCF 1.5
+    search_placeholder: Search PCC v1.5
     url_prefix: p-cloud-cache/1-5
     local_product_version: 1.5
     local_header_links: []
@@ -59,7 +59,7 @@ sections:
     changelog_href: http://docs.pivotal.io/p-cloud-cache/1-4/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
-    search_placeholder: Search Pivotal Cloud Cache for PCF 1.4
+    search_placeholder: Search PCC v1.4
     url_prefix: p-cloud-cache/1-4
     local_product_version: 1.4
     local_header_links: []
@@ -87,7 +87,7 @@ sections:
     changelog_href: http://docs.pivotal.io/p-cloud-cache/1-3/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
-    search_placeholder: Search Pivotal Cloud Cache for PCF 1.3
+    search_placeholder: Search PCC v1.3
     url_prefix: p-cloud-cache/1-3
     local_product_version: 1.3
     local_header_links: []
@@ -115,7 +115,7 @@ sections:
     changelog_href: http://docs.pivotal.io/p-cloud-cache/1-2/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
-    search_placeholder: Search Pivotal Cloud Cache for PCF 1.2
+    search_placeholder: Search PCC v1.2
     url_prefix: p-cloud-cache/1-2
     local_product_version: 1.2
     local_header_links: []
@@ -143,7 +143,7 @@ sections:
     changelog_href: http://docs.pivotal.io/p-cloud-cache/1-1/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
-    search_placeholder: Search Pivotal Cloud Cache for PCF 1.1
+    search_placeholder: Search PCC v1.1
     url_prefix: p-cloud-cache/1-1
     local_product_version: 1.1
     local_header_links: []
@@ -171,7 +171,7 @@ sections:
     changelog_href: http://docs.pivotal.io/p-cloud-cache/1-0/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Pivotal Cloud Cache for PCF
-    search_placeholder: Search Pivotal Cloud Cache for PCF 1.0
+    search_placeholder: Search PCC v1.0
     url_prefix: p-cloud-cache/1-0
     local_product_version: 1.0
     local_header_links: []
