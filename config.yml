@@ -36,7 +36,7 @@ sections:
     url_prefix: p-cloud-cache/1-7
     local_product_version: 1.7
     local_header_links: []
-    local_header_version_list:.
+    local_header_version_list:
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-6
         display_name: v1.6
       - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-5
