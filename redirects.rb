@@ -3,7 +3,7 @@ r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
   rack_env['SERVER_NAME'] == 'docs.pivotal.io' && rack_env['HTTP_X_FORWARDED_PROTO'] == 'http'
 }
 
-r301 %r{/p-cloud-cache/(?![\d-]+)(.*)}, "/p-cloud-cache/1-6/$1"
+r301 %r{/p-cloud-cache/(?![\d-]|[o][d][b]+)(.*)}, "/p-cloud-cache/1-6/$1"
 
 # Redirect old versions to PDFs
 r301 %r{/p-cloud-cache/1-0/(.*)}, 'http://docs.pivotal.io/archives/p-cloud-cache-1.0.8.pdf'
