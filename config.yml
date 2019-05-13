@@ -23,7 +23,7 @@ sections:
     name: pivotal-cf/docs-cloud-cache
     ref: 'v1.5-branch'
     at_path: content
-  directory: p-cloud-cache/1-5/
+  directory: p-cloud-cache/1-5
   subnav_template: cloudcache_subnav-1-5.erb
   product_info:
     use_local_header: true
