@@ -9,7 +9,7 @@ elastic_search: true
 
 pcf_header: &local_pcc
   use_local_header: true
-  latest_stable_version: <a href="https://docs.pivotal.io/p-cloud-cache">Click Here</a>
+  latest_stable_version: 1.7.0
   changelog_href: /p-cloud-cache/1-7/release-notes.html
   local_header_img: /images/cloud_rings.png
   local_header_title: Pivotal Cloud Cache for PCF
