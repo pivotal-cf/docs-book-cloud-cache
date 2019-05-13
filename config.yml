@@ -9,7 +9,7 @@ elastic_search: true
 
 pcf_header: &local_pcc
   use_local_header: true
-  latest_stable_version: 1.7
+  latest_stable_version: <a href="https://docs.pivotal.io/p-cloud-cache">Click Here</a>
   changelog_href: /p-cloud-cache/1-7/release-notes.html
   local_header_img: /images/cloud_rings.png
   local_header_title: Pivotal Cloud Cache for PCF
@@ -36,7 +36,7 @@ sections:
     ref: 'v1.7-branch'
     at_path: content
   directory: p-cloud-cache/1-7
-  subnav_template: cloudcache_subnav-1-7.erb
+  subnav_template: cloudcache_subnav.erb
   product_info: *local_pcc
 - repository:
     name: pivotal-cf/docs-services-partials
