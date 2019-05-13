@@ -52,12 +52,12 @@ GEM
     css_parser (1.7.0)
       addressable
     dotenv (2.7.2)
-    elasticsearch (6.3.0)
-      elasticsearch-api (= 6.3.0)
-      elasticsearch-transport (= 6.3.0)
-    elasticsearch-api (6.3.0)
+    elasticsearch (7.0.0)
+      elasticsearch-api (= 7.0.0)
+      elasticsearch-transport (= 7.0.0)
+    elasticsearch-api (7.0.0)
       multi_json
-    elasticsearch-transport (6.3.0)
+    elasticsearch-transport (7.0.0)
       faraday
       multi_json
     em-websocket (0.5.1)
@@ -100,12 +100,6 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     ipaddress (0.8.3)
-    jasmine (3.4.0)
-      jasmine-core (~> 3.4.0)
-      phantomjs
-      rack (>= 1.2.1)
-      rake
-    jasmine-core (3.4.0)
     kramdown (1.17.0)
     libv8 (3.16.14.19)
     listen (3.0.8)
@@ -161,7 +155,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     multi_json (1.13.1)
-    multipart-post (2.0.0)
+    multipart-post (2.1.1)
     nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
     padrino-helpers (0.13.3.4)
@@ -171,14 +165,12 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.17.0)
-    phantomjs (2.1.1.0)
     public_suffix (3.0.3)
     puma (3.12.1)
     rack (1.6.11)
     rack-livereload (0.3.17)
       rack
     rack-rewrite (1.5.1)
-    rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -206,10 +198,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bookbindery
-  jasmine
-  rake
-  therubyracer
+  bookbindery (= 10.1.15)
+  libv8
 
 BUNDLED WITH
    1.17.3

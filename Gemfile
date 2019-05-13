@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-gem 'therubyracer'
-gem 'bookbindery'
-gem 'rake'
-gem 'jasmine'
+
+gem 'bookbindery', '10.1.15'
+
+gem 'libv8'
