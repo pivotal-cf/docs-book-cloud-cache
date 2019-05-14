@@ -2,106 +2,65 @@
 book_repo: pivotal-cf/docs-book-cloud-cache
 layout_repo: pivotal-cf/docs-layout-repo
 layout_repo_ref: master
-feedback_enabled: true
-
-broken_link_exclusions: iefix|arrowhead
-repo_link_enabled: true
-
 public_host: docs.pivotal.io
-
+feedback_enabled: true
+repo_link_enabled: true
 elastic_search: true
 
+pcf_header: &local_pcc
+  use_local_header: true
+  latest_stable_version: 1.5.4
+  changelog_href: /p-cloud-cache/1-5/release-notes.html
+  local_header_img: /images/cloud_rings.png
+  local_header_title: Pivotal Cloud Cache for PCF
+  search_placeholder: Search PCC v1.5
+  url_prefix: p-cloud-cache/1-5/
+  local_product_version: 1.5
+  local_header_links: []
+  local_header_version_list:
+    - url_prefix: /p-cloud-cache/1-7/
+      display_name: v1.7
+    - url_prefix: /p-cloud-cache/1-6/
+      display_name: v1.6
+    - url_prefix: /p-cloud-cache/1-4/
+      display_name: v1.4
+    - url_prefix: /p-cloud-cache/1-3/
+      display_name: v1.3
+    - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.2.2.pdf">v1.2</a>
+    - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.1.5.pdf">v1.1</a>
+    - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.0.8.pdf">v1.0</a>
 
 sections:
+- repository:
+    name: pivotal-cf/docs-cloud-cache
+    ref: 'v1.5-branch'
+    at_path: content
+  directory: p-cloud-cache/1-5
+  subnav_template: cloudcache_subnav.erb
+  product_info: *local_pcc
 - repository:
     name: pivotal-cf/docs-services-partials
     ref: master
   directory: p-cloud-cache/odb
   no_docs: true
 
-- repository:
-    name: pivotal-cf/docs-cloud-cache
-    ref: 'v1.5-branch'
-    at_path: content
-  directory: p-cloud-cache/1-5
-  subnav_template: cloudcache_subnav-1-5.erb
-  product_info:
-    use_local_header: true
-    latest_stable_version: 1.5.4
-    changelog_href: http://docs.pivotal.io/p-cloud-cache/1-5/release-notes.html
-    local_header_img: /images/cloud_rings.png
-    local_header_title: Pivotal Cloud Cache for PCF
-    search_placeholder: Search PCC v1.5
-    url_prefix: p-cloud-cache/1-5/
-    local_product_version: 1.5
-    local_header_links: []
-    local_header_version_list:
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-7/
-        display_name: v1.7
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-6/
-        display_name: v1.6
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-4/
-        display_name: v1.4
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-3/
-        display_name: v1.3
-      - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.2.2.pdf">v1.2</a>
-      - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.1.5.pdf">v1.1</a>
-      - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.0.8.pdf">v1.0</a>
+template_variables:
+  product_name_long: Pivotal Cloud Cache
+  product_name: PCC
+  product_version: 1.5
+  product_version_dash: 1-5
+  product_version_gemfire: 9.6.2
+  book_title: Pivotal Cloud Cache 1.5 Documentation
+  title: <span class="title-deemph">Pivotal</span> Documentation
+  use_global_header: true
+  global_header_product_href: https://network.pivotal.io/
+  global_header_product_link_text: Downloads
+  support_url: http://support.pivotal.io
+  product_url: https://pivotal.io/platform/services-marketplace/data-management/pivotal-cloud-cache
+  support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
+  support_call_to_action: <a href="http://support.pivotal.io" target="_blank">Need Support?</a>
+  product_link: <div class="header-item"><a href="https://pivotal.io/platform/services-marketplace/data-management/pivotal-cloud-cache">Back to Product Page</a></div>
+  domain_name: pivotal.io
+  book_title_short: Pivotal Cloud Cache Docs
 
-- repository:
-    name: pivotal-cf/docs-cloud-cache
-    ref: 'v1.4-branch'
-    at_path: content
-  directory: p-cloud-cache/1-4
-  subnav_template: cloudcache_subnav-1-4.erb
-  product_info:
-    use_local_header: true
-    latest_stable_version: 1.4.2
-    changelog_href: http://docs.pivotal.io/p-cloud-cache/1-4/release-notes.html
-    local_header_img: /images/cloud_rings.png
-    local_header_title: Pivotal Cloud Cache for PCF
-    search_placeholder: Search PCC v1.4
-    url_prefix: p-cloud-cache/1-4/
-    local_product_version: 1.4
-    local_header_links: []
-    local_header_version_list:
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-7
-        display_name: v1.7
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-6/
-        display_name: v1.6
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-5/
-        display_name: v1.5
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-3/
-        display_name: v1.3
-      - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.2.2.pdf">v1.2</a>
-      - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.1.5.pdf">v1.1</a>
-      - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.0.8.pdf">v1.0</a>
-
-- repository:
-    name: pivotal-cf/docs-cloud-cache
-    ref: 'v1.3-branch'
-    at_path: content
-  directory: p-cloud-cache/1-3
-  subnav_template: cloudcache_subnav-1-3.erb
-  product_info:
-    use_local_header: true
-    latest_stable_version: 1.3.5
-    changelog_href: http://docs.pivotal.io/p-cloud-cache/1-3/release-notes.html
-    local_header_img: /images/cloud_rings.png
-    local_header_title: Pivotal Cloud Cache for PCF
-    search_placeholder: Search PCC v1.3
-    url_prefix: p-cloud-cache/1-3/
-    local_product_version: 1.3
-    local_header_links: []
-    local_header_version_list:
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-7/
-        display_name: v1.7
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-6/
-        display_name: v1.6
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-5/
-        display_name: v1.5
-      - url_prefix: http://docs.pivotal.io/p-cloud-cache/1-4/
-        display_name: v1.4
-      - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.2.2.pdf">v1.2</a>
-      - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.1.5.pdf">v1.1</a>
-      - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.0.8.pdf">v1.0</a>
+broken_link_exclusions: iefix|arrowhead|1-3|1-4|1-6|1-7
