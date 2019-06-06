@@ -9,7 +9,7 @@ GEM
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     ansi (1.5.0)
-    backports (3.13.0)
+    backports (3.15.0)
     bookbindery (10.1.15)
       ansi (~> 1.4)
       css_parser
@@ -52,12 +52,12 @@ GEM
     css_parser (1.7.0)
       addressable
     dotenv (2.7.2)
-    elasticsearch (6.3.0)
-      elasticsearch-api (= 6.3.0)
-      elasticsearch-transport (= 6.3.0)
-    elasticsearch-api (6.3.0)
+    elasticsearch (7.1.0)
+      elasticsearch-api (= 7.1.0)
+      elasticsearch-transport (= 7.1.0)
+    elasticsearch-api (7.1.0)
       multi_json
-    elasticsearch-transport (6.3.0)
+    elasticsearch-transport (7.1.0)
       faraday
       multi_json
     em-websocket (0.5.1)
@@ -71,7 +71,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     fast_blank (1.0.0)
     fastimage (2.1.5)
-    ffi (1.10.0)
+    ffi (1.11.1)
     fog-aws (0.7.6)
       fog-core (~> 1.27)
       fog-json (~> 1.0)
@@ -91,7 +91,7 @@ GEM
       sass (>= 3.2)
     formatador (0.2.5)
     git (1.2.9.1)
-    haml (5.0.4)
+    haml (5.1.1)
       temple (>= 0.8.0)
       tilt
     hamster (3.0.0)
@@ -155,7 +155,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     multi_json (1.13.1)
-    multipart-post (2.0.0)
+    multipart-post (2.1.1)
     nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
     padrino-helpers (0.13.3.4)
@@ -165,7 +165,7 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.17.0)
-    public_suffix (3.0.3)
+    public_suffix (3.1.0)
     puma (3.12.1)
     rack (1.6.11)
     rack-livereload (0.3.17)
