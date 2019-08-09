@@ -11,7 +11,7 @@ pcf_header: &local_pcc
   use_local_header: true
   latest_stable_version: 1.6.3
   changelog_href: /p-cloud-cache/1-6/release-notes.html
-  local_header_img: /images/cloud_rings.png
+  local_header_img: /images/pivotal-cloud-cache-icon.png
   local_header_title: Pivotal Cloud Cache
   search_placeholder: Search PCC v1.6
   url_prefix: p-cloud-cache/1-6/
