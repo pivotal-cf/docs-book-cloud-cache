@@ -14,7 +14,7 @@ elastic_search: true
 
 sections:
 - repository:
-    name: pivotal-cf/docs-services-partials
+    name: pivotal-cf/docs-partials
     ref: master
   directory: p-cloud-cache/odb
   no_docs: true
