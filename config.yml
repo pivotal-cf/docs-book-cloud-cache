@@ -42,7 +42,7 @@ sections:
   subnav_template: cloudcache_subnav
   product_info: *local_pcc
 - repository:
-    name: pivotal-cf/docs-services-partials
+    name: pivotal-cf/docs-partials
     ref: master
   directory: p-cloud-cache/odb
   no_docs: true
