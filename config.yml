@@ -44,7 +44,7 @@ sections:
 - repository:
     name: pivotal-cf/docs-partials
     ref: master
-  directory: p-cloud-cache/odb
+  directory: p-cloud-cache/partials
   no_docs: true
 
 # For template variables, see config/template_variables.yml. Use format <%=vars.VARIABLE_NAME_HERE%> to insert the following into content. Note: Bookbinder will not convert template variables inserted into config.yml or redirects.rb.
