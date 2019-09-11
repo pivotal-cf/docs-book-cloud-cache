@@ -9,15 +9,17 @@ elastic_search: true
 
 pcf_header: &local_pcc
   use_local_header: true
-  latest_stable_version: 1.9
-  changelog_href: /p-cloud-cache/1-9/release-notes.html
+  latest_stable_version: 1.10
+  changelog_href: /p-cloud-cache/1-10/release-notes.html
   local_header_img: /images/pivotal-cloud-cache-icon.png
   local_header_title: Pivotal Cloud Cache
-  search_placeholder: Search PCC v1.9
-  url_prefix: p-cloud-cache/1-9/
-  local_product_version: 1.9
+  search_placeholder: Search PCC v1.10
+  url_prefix: p-cloud-cache/1-10/
+  local_product_version: 1.10
   local_header_links: []
   local_header_version_list:
+    - url_prefix: /p-cloud-cache/1-9/
+      display_name: v1.9
     - url_prefix: /p-cloud-cache/1-8/
       display_name: v1.8
     - url_prefix: /p-cloud-cache/1-7/
@@ -38,7 +40,7 @@ sections:
     name: pivotal-cf/docs-cloud-cache
     ref: master
     at_path: content
-  directory: p-cloud-cache/1-9
+  directory: p-cloud-cache/1-10
   subnav_template: cloudcache_subnav
   product_info: *local_pcc
 - repository:
@@ -49,4 +51,4 @@ sections:
 
 # For template variables, see config/template_variables.yml. Use format <%=vars.VARIABLE_NAME_HERE%> to insert the following into content. Note: Bookbinder will not convert template variables inserted into config.yml or redirects.rb.
 
-broken_link_exclusions: iefix|arrowhead|1-3|1-4|1-5|1-6|1-7|1-8
+broken_link_exclusions: iefix|arrowhead|1-3|1-4|1-5|1-6|1-7|1-8|1-9
