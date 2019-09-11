@@ -9,13 +9,13 @@ elastic_search: true
 
 pcf_header: &local_pcc
   use_local_header: true
-  latest_stable_version: 1.10
+  latest_stable_version: '1.10'
   changelog_href: /p-cloud-cache/1-10/release-notes.html
   local_header_img: /images/pivotal-cloud-cache-icon.png
   local_header_title: Pivotal Cloud Cache
   search_placeholder: Search PCC v1.10
   url_prefix: p-cloud-cache/1-10/
-  local_product_version: 1.10
+  local_product_version: '1.10'
   local_header_links: []
   local_header_version_list:
     - url_prefix: /p-cloud-cache/1-9/
@@ -40,7 +40,7 @@ sections:
     name: pivotal-cf/docs-cloud-cache
     ref: master
     at_path: content
-  directory: p-cloud-cache/1-10
+  directory: 'p-cloud-cache/1-10'
   subnav_template: cloudcache_subnav
   product_info: *local_pcc
 - repository:
