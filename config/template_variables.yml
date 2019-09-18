@@ -11,10 +11,10 @@ template_variables:
   product_short: Elastic Runtime
   product_name: Pivotal Cloud Cache
   product_name_short: PCC
-  product_version: v1.9
-  product_version_dash: 1-9
-  product_version_period: 1.9
-  product_version_gemfire: v9.7.1
+  product_version: v1.10
+  product_version_dash: 1-10
+  product_version_period: 1.10
+  product_version_gemfire: v9.8.3
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
