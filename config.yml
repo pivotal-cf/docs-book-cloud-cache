@@ -18,6 +18,8 @@ pcf_header: &local_pcc
   local_product_version: 1.4
   local_header_links: []
   local_header_version_list:
+    - url_prefix: /p-cloud-cache/1-9/
+      display_name: v1.9
     - url_prefix: /p-cloud-cache/1-8/
       display_name: v1.8
     - url_prefix: /p-cloud-cache/1-7/
@@ -64,4 +66,4 @@ template_variables:
   domain_name: pivotal.io
   book_title_short: Pivotal Cloud Cache Docs
 
-broken_link_exclusions: iefix|arrowhead|1-3|1-5|1-6|1-7|1-8
+broken_link_exclusions: iefix|arrowhead|1-3|1-5|1-6|1-7|1-8|1-9
