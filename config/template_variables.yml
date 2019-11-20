@@ -2,7 +2,7 @@
 #Use format <%=vars.VARIABLE_NAME_HERE%> to insert the following into content. Note: Bookbinder will not convert template variables inserted into config.yml or redirects.rb.
 
 template_variables:
-  book_title: Pivotal Cloud Cache 1.10 Documentation
+  book_title: Pivotal Cloud Cache 1.11 Documentation
   book_title_short: PCC Documentation
   title: <span class="title-deemph">Pivotal</span> Documentation
   title_image: images/icon-p-green.jpg
@@ -11,9 +11,9 @@ template_variables:
   product_short: Elastic Runtime
   product_name: Pivotal Cloud Cache
   product_name_short: PCC
-  product_version: v1.10
-  product_version_dash: 1-10
-  product_version_period: 1.10
+  product_version: v1.11
+  product_version_dash: 1-11
+  product_version_period: 1.11
   product_version_gemfire: v9.8.4
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
