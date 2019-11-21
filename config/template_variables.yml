@@ -18,6 +18,7 @@ template_variables:
   tile_name: Cloud Cache
   api_version: 235
   gtm_account_id: GTM-MW4LZHR
+  path_to_partials: /p-cloud-cache/partials
 
   platform_name: Pivotal Platform
   platform_old: Pivotal Cloud Foundry
