@@ -202,6 +202,7 @@ PLATFORMS
 DEPENDENCIES
   bookbindery (= 10.1.15)
   libv8
+  sprockets (~> 3.7.2)
 
 BUNDLED WITH
-   1.16.6
+   1.17.3
