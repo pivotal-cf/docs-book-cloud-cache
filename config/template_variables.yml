@@ -15,6 +15,7 @@ template_variables:
   product_version_dash: 1-10
   product_version_period: 1.10
   product_version_gemfire: v9.9.0
+  product_version_gfnc: v10.0.3
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
