@@ -7,8 +7,7 @@ template_variables:
   title: <span class="title-deemph">Pivotal</span> Documentation
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
-  product_full: Elastic Runtime
-  product_short: Elastic Runtime
+
   product_name: Pivotal Cloud Cache
   product_name_short: PCC
   product_version: v1.9
