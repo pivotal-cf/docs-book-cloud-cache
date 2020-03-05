@@ -2,25 +2,24 @@
 #Use format <%=vars.VARIABLE_NAME_HERE%> to insert the following into content. Note: Bookbinder will not convert template variables inserted into config.yml or redirects.rb.
 
 template_variables:
-  book_title: Pivotal Cloud Cache 1.11 Documentation
-  book_title_short: PCC Documentation
-  title: <span class="title-deemph">Pivotal</span> Documentation
+  book_title: VMware Tanzu GemFire 1.11 Documentation
+  book_title_short: Tanzu GemFire Documentation
+  title: <span class="title-deemph">VMware</span> Documentation
   title_image: images/icon-p-green.jpg
-  hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
-  product_name_short: PCC
+  hero_text: "Detailed documentation to help you install, understand, and succeed with VMware's enterprise-grade software."
   product_version: v1.11
   product_version_dash: 1-11
   product_version_period: 1.11
-  product_version_gemfire: v9.8.4
+  product_version_gemfire: v9.9.1
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
-  release_date: November 30, 2019
+  release_date: March 13, 2020
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
   support_call_to_action: <a href="http://support.pivotal.io" target="_blank">Need Support?</a>
   support_url: http://support.pivotal.io
-  service_name: Pivotal Cloud Cache
-  tile_name: Cloud Cache
+  service_name: VMware Tanzu GemFire
+  tile_name: Tanzu GemFire
   api_version: 235
   gtm_account_id: GTM-MW4LZHR
   path_to_partials: /p-cloud-cache/partials
@@ -29,10 +28,9 @@ template_variables:
   platform_old: Pivotal Cloud Foundry
   platform_code: PCF
   product_name_lc: pcf
-  product_name: Pivotal Cloud Cache
-  product_full: Pivotal Cloud Cache
-  product_short: Pivotal Cloud Cache
-  product_abbr: PCC
+  product_name: VMware Tanzu GemFire
+  product_full: VMware Tanzu GemFire
+  product_short: Tanzu GemFire
   product_old: Pivotal Cloud Cache
   app_runtime_full: Pivotal Application Service
   app_runtime: Application Service
