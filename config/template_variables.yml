@@ -4,7 +4,7 @@
 template_variables:
   book_title: VMware Tanzu GemFire 1.11 Documentation
   book_title_short: Tanzu GemFire Documentation
-  title: <span class="title-deemph">VMware</span> Documentation
+  title: <span class="title-deemph">VMware Tanzu</span> Documentation
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with VMware's enterprise-grade software."
   product_version: v1.11
@@ -13,7 +13,7 @@ template_variables:
   product_version_gemfire: v9.9.1
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
-  product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
+  product_link: <div class="header-item"><a href="https://network.pivotal.io/products/VMware Tanzu-cf">Back to Product Page</a></div>
   release_date: March 13, 2020
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
   support_call_to_action: <a href="http://support.pivotal.io" target="_blank">Need Support?</a>
@@ -32,15 +32,12 @@ template_variables:
   product_full: VMware Tanzu GemFire
   product_short: Tanzu GemFire
   product_old: Pivotal Cloud Cache
-  app_runtime_full: Pivotal Application Service
-  app_runtime: Application Service
-  app_runtime_abbr: PAS
-  k8s_runtime_full: Enterprise Pivotal Container Service
-  k8s_runtime: Enterprise PKS
+  app_runtime_full: VMware Tanzu Application Service for VMs
+  app_runtime_abbr: TAS for VMs
+  k8s_runtime_full: VMware Enterprise PKS
   k8s_runtime_abbr: PKS
-  windows_runtime_full: Pivotal Application Service for Windows
-  windows_runtime: Application Service for Windows
-  windows_runtime_abbr: PASW
+  windows_runtime_full: VMware Tanzu Application Service for VMs &#91;Windows&#93; 
+  windows_runtime_abbr: TAS for VMs &#91;Windows&#93;
   ops_manager_full: Pivotal Operations Manager
   ops_manager: Ops Manager
 
