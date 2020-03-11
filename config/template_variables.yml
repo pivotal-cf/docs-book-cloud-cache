@@ -38,6 +38,7 @@ template_variables:
   k8s_runtime_full: VMware Enterprise PKS
   k8s_runtime_abbr: PKS
   windows_runtime_full: VMware Tanzu Application Service for VMs &#91;Windows&#93; 
+  pivnet: VMware Tanzu Network
   windows_runtime_abbr: TAS for VMs &#91;Windows&#93;
   ops_manager_full: Pivotal Operations Manager
   ops_manager: Ops Manager
