@@ -10,9 +10,9 @@ template_variables:
 
   product_name: Pivotal Cloud Cache
   product_name_short: PCC
-  product_version: v1.10
-  product_version_dash: 1-10
-  product_version_period: 1.10
+  product_version: 'v1.10'
+  product_version_dash: '1-10'
+  product_version_period: '1.10'
   product_version_gemfire: v9.9.1
   product_version_gfnc: v10.0.3
   product_abbr:
