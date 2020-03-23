@@ -20,6 +20,8 @@ pcf_header: &local_pcc
     - <a href="https://docs.pivotal.io/cloud-cache-dev/">Cloud Cache Developer Guide</a>
     - <a href="https://support.pivotal.io">Ask for Help</a>
   local_header_version_list:
+    - url_prefix: /p-cloud-cache/1-11/
+      display_name: v1.1
     - url_prefix: /p-cloud-cache/1-9/
       display_name: v1.9
     - url_prefix: /p-cloud-cache/1-8/
