@@ -17,7 +17,7 @@ pcf_header: &local_pcc
   url_prefix: p-cloud-cache/1-12/
   local_product_version: '1.12'
   local_header_links:
-    - <a href="https://docs.pivotal.io/cloud-cache-dev/">Cloud Cache Developer Guide</a>
+    - <a href="https://docs.pivotal.io/cloud-cache-dev/">Tanzu GemFire&reg; Developer Guide</a>
     - <a href="https://support.pivotal.io">Ask for Help</a>
     - <p style="background-color:#ddd;padding:8px"><a href="/p-cloud-cache/1-12/release-notes.html">Pivotal Cloud Cache is now<br /><strong>VMware Tanzu GemFire!</strong></a></p>
   local_header_version_list:
