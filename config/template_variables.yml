@@ -32,7 +32,7 @@ template_variables:
   product_full: VMware Tanzu GemFire
   product_short: Tanzu GemFire
   product_old: Pivotal Cloud Cache
-  component_product: VMware GemFire
+  component_product: Apache Geode
   app_runtime_full: VMware Tanzu Application Service for VMs
   app_runtime_abbr: TAS for VMs
   k8s_runtime_full: VMware Enterprise PKS
