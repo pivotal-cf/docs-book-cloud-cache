@@ -13,7 +13,7 @@ template_variables:
   product_version: v1.9
   product_version_dash: 1-9
   product_version_period: 1.9
-  product_version_gemfire: v9.8.8
+  product_version_gemfire: v9.8.6
   product_version_gfnc: v10.0.3
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
