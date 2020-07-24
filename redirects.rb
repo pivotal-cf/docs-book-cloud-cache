@@ -4,7 +4,7 @@ r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
 }
 
 #Redirect paths without version number and are partial images to image
-r301 %r{/p-cloud-cache/(?![\d-]|[p][a][r][t]+)(.*)}, "/p-cloud-cache/1-12/$1"
+r301 %r{/p-cloud-cache/(?![\d-]|[p][a][r][t]+)(.*)}, "/p-cloud-cache/1-13/$1"
 
 # Redirect old versions to PDFs
 r301 %r{/p-cloud-cache/1-0/(.*)}, 'http://docs.pivotal.io/archives/p-cloud-cache-1.0.8.pdf'
