@@ -9,13 +9,13 @@ elastic_search: true
 
 pcf_header: &local_pcc
   use_local_header: true
-  latest_stable_version: '1.13'
-  changelog_href: /p-cloud-cache/1-13/release-notes.html
+  latest_stable_version: '1.13.Beta'
+  changelog_href: /p-cloud-cache/1-13-beta/release-notes.html
   local_header_img: /images/pivotal-cloud-cache-icon.png
   local_header_title: VMware Tanzu GemFire
-  search_placeholder: Search Tanzu GemFire v1.13
-  url_prefix: p-cloud-cache/1-13/
-  local_product_version: '1.13'
+  search_placeholder: Search Tanzu GemFire v1.13 Beta
+  url_prefix: p-cloud-cache/1-13-beta/
+  local_product_version: '1.13 Beta'
   local_header_links:
     - <a href="https://docs.pivotal.io/cloud-cache-dev/">Tanzu GemFire&reg; Developer Guide</a>
     - <a href="https://support.pivotal.io">Ask for Help</a>
@@ -47,7 +47,7 @@ sections:
     name: pivotal-cf/docs-cloud-cache
     ref: master
     at_path: content
-  directory: 'p-cloud-cache/1-13'
+  directory: 'p-cloud-cache/1-13-beta'
   subnav_template: cloudcache_subnav
   product_info: *local_pcc
 - repository:
