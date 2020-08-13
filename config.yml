@@ -45,7 +45,7 @@ pcf_header: &local_pcc
 sections:
 - repository:
     name: pivotal-cf/docs-cloud-cache
-    ref: master
+    ref: v1.13.beta-branch
     at_path: content
   directory: 'p-cloud-cache/1-13-beta'
   subnav_template: cloudcache_subnav
