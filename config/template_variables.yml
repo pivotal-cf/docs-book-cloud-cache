@@ -2,7 +2,7 @@
 #Use format <%=vars.VARIABLE_NAME_HERE%> to insert the following into content. Note: Bookbinder will not convert template variables inserted into config.yml or redirects.rb.
 
 template_variables:
-  book_title: VMware Tanzu GemFire 1.12 Documentation
+  book_title: VMware Tanzu™ GemFire&reg; for VMs 1.12 Documentation
   book_title_short: Tanzu GemFire Documentation
   title: <span class="title-deemph">VMware Tanzu</span> Documentation
   title_image: images/icon-p-green.jpg
@@ -18,7 +18,7 @@ template_variables:
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
   support_call_to_action: <a href="http://support.pivotal.io" target="_blank">Need Support?</a>
   support_url: http://support.pivotal.io
-  service_name: VMware Tanzu GemFire
+  service_name: VMware Tanzu GemFire for VMs
   tile_name: Tanzu GemFire
   api_version: 235
   gtm_account_id: GTM-MW4LZHR
@@ -28,11 +28,11 @@ template_variables:
   platform_old: Pivotal Cloud Foundry
   platform_code: PCF
   product_name_lc: pcf
-  product_name: VMware Tanzu GemFire
-  product_full: VMware Tanzu GemFire
+  product_name: VMware Tanzu GemFire for VMs
+  product_full: VMware Tanzu GemFire for VMs
   product_short: Tanzu GemFire
   product_old: Pivotal Cloud Cache
-  component_product: VMware GemFire
+  component_product: VMware Tanzu GemFire
   app_runtime_full: VMware Tanzu Application Service for VMs
   app_runtime_abbr: TAS for VMs
   k8s_runtime_full: VMware Enterprise PKS

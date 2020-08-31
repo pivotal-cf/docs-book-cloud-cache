@@ -12,7 +12,7 @@ pcf_header: &local_pcc
   latest_stable_version: '1.12'
   changelog_href: /p-cloud-cache/1-12/release-notes.html
   local_header_img: /images/pivotal-cloud-cache-icon.png
-  local_header_title: VMware Tanzu GemFire
+  local_header_title: VMware Tanzu™ GemFire&reg; for VMs
   search_placeholder: Search Tanzu GemFire v1.12
   url_prefix: p-cloud-cache/1-12/
   local_product_version: '1.12'
