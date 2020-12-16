@@ -2,14 +2,14 @@
 #Use format <%=vars.VARIABLE_NAME_HERE%> to insert the following into content. Note: Bookbinder will not convert template variables inserted into config.yml or redirects.rb.
 
 template_variables:
-  book_title: VMware Tanzu™ GemFire&reg; for VMs 1.13 Documentation
+  book_title: VMware Tanzu™ GemFire&reg; for VMs 1.14 Documentation
   book_title_short: Tanzu GemFire Documentation
   title: <span class="title-deemph">VMware Tanzu</span> Documentation
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with VMware's enterprise-grade software."
-  product_version: v1.13
-  product_version_dash: 1-13
-  product_version_period: 1.13
+  product_version: v1.14
+  product_version_dash: 1-14
+  product_version_period: 1.14
   product_version_gemfire: v9.9.1
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
