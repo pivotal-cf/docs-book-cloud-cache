@@ -13,12 +13,12 @@ template_variables:
   product_version: 'v1.10'
   product_version_dash: '1-10'
   product_version_period: '1.10'
-  product_version_gemfire: v9.9.5
+  product_version_gemfire: v9.9.6
   product_version_gfnc: v10.0.3
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
-  release_date: November 16, 2020
+  release_date: June 15, 2021
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
   support_call_to_action: <a href="http://support.pivotal.io" target="_blank">Need Support?</a>
   support_url: http://support.pivotal.io
@@ -36,7 +36,7 @@ template_variables:
   product_short: Pivotal Cloud Cache
   product_abbr: PCC
   product_old: Pivotal Cloud Cache
-  app_runtime_full: Pivotal Application Service
+  app_runtime_full: Tanzu Application Service for VMs
   app_runtime: Application Service
   app_runtime_abbr: PAS
   k8s_runtime_full: Enterprise Pivotal Container Service
