@@ -1,5 +1,11 @@
 #  Cloud Cache for PCF Documentation Book
 
+This branch has	been archived. PDF available at https://resources.docs.pivotal.io/pdfs/p-cloud-cache-1.7.pdf.
+
+Updated	June 16, 2021, Dave Barnes daveba@vmware.com
+
+## README content (now outdated)
+
 This project creates and publishes the documentation for Cloud Cache for PCF as a web application.
 
 In this topic:
