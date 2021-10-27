@@ -1,0 +1,50 @@
+{
+    "tocLocation": "docs-cloud-cache/tgf-subnav.md",
+    "variablesLocation": "docs-book-cloud-cache/config/template_variables.yml",
+    "buildsToKeep": 10,
+    "buildVerbosity": "Detailed",
+    "errorSettings": {
+        "treatMissingReferencesAsErrors": false,
+        "treatMissingImageReferencesAsErrors": false,
+        "treatMissingVariablesAsErrors": false,
+        "treatMissingPartialsAsErrors": false
+    },
+    "deployments": {
+        "docs": {
+            "autoDeploy": false,
+            "flattenOutput": true,
+            "metadata": {
+                "publication-name": "Tanzu GemFire for VMs User Guide",
+                "product-name": "VMware Tanzu GemFire for VMs",
+                "publication-cms-title": "Tanzu GemFire for VMs User Guide",
+                "product-version": "1.1",
+                "publication-version": "1",
+                "publication-version-comments": "TGF[VMs] User Guide WIP",
+                "language": "en",
+                "publication-guid": "20211027",
+                "publication-keywords": "Tanzu GemFire",
+                "output-file-name": "tgf-vms",
+                "publication-author": "daveba@vmware.com",
+                "pdf-link": ""
+            }
+        }
+    },
+    "repos": [
+        {
+          "name": "docs-book-cloud-cache",
+          "alias": "tgfvms-book"
+        },
+        {
+          "name": "docs-cloud-cache",
+          "alias": "tgfvms-docs"
+        }
+    ],
+    "bundle": {
+        "files": {}
+    },
+    "experimental": {
+        "bundleStrategy": "All",
+        "markdownProcessor": "Markdig",
+        "generatePdf": false
+    }
+}
