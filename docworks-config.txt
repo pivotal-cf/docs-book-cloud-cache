@@ -1,6 +1,6 @@
 {
-    "tocLocation": "docs-cloud-cache/tgf-subnav.md",
-    "variablesLocation": "docs-book-cloud-cache/config/template_variables.yml",
+    "tocLocation": "tgfvms-docs/tgf-subnav.md",
+    "variablesLocation": "tgfvms-book/config/template_variables.yml",
     "buildsToKeep": 10,
     "buildVerbosity": "Detailed",
     "errorSettings": {
@@ -19,7 +19,7 @@
                 "publication-cms-title": "Tanzu GemFire for VMs User Guide",
                 "product-version": "1.1",
                 "publication-version": "1",
-                "publication-version-comments": "TGF[VMs] User Guide WIP",
+                "publication-version-comments": "TGF[VMs] User Guide",
                 "language": "en",
                 "publication-guid": "20211027",
                 "publication-keywords": "Tanzu GemFire",
