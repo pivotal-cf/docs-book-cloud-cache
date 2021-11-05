@@ -13,7 +13,7 @@ template_variables:
   service_name: Pivotal Cloud Cache
   tile_name: Cloud Cache
   api_version: 235
-  gtm_account_id: GTM-MW4LZHR
+  gtm_account_id: GTM-MM86KCJ
   path_to_partials: /p-cloud-cache/partials
 
   platform_name: Pivotal Platform
