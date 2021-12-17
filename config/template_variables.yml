@@ -13,12 +13,12 @@ template_variables:
   product_version: 'v1.10'
   product_version_dash: '1-10'
   product_version_period: '1.10'
-  product_version_gemfire: v9.9.6
+  product_version_gemfire: v9.9.7
   product_version_gfnc: v10.0.3
   product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
-  release_date: December 14, 2021
+  release_date: December 16, 2021
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
   support_call_to_action: <a href="http://support.pivotal.io" target="_blank">Need Support?</a>
   support_url: http://support.pivotal.io
