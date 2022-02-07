@@ -2,7 +2,7 @@
 #Use format <%=vars.VARIABLE_NAME_HERE%> to insert the following into content. Note: Bookbinder will not convert template variables inserted into config.yml or redirects.rb.
 
 template_variables:
-  book_title: VMware Tanzu™ GemFire&reg; for VMs 1.11 Documentation
+  book_title: VMware Tanzu&trade; GemFire&reg; for VMs 1.11 Documentation
   book_title_short: Tanzu GemFire Documentation
   title: <span class="title-deemph">VMware Tanzu</span> Documentation
   title_image: images/icon-p-green.jpg
