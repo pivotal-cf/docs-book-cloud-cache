@@ -10,11 +10,11 @@ template_variables:
   product_version: v1.14
   product_version_dash: 1-14
   product_version_period: 1.14
-  product_version_gemfire: v9.10.14
+  product_version_gemfire: v9.10.15
   product_abbr:
   product_url: https://tanzu.vmware.com/gemfire
   product_link: <div class="header-item"><a href="https://tanzu.vmware.com/gemfire">Back to Product Page</a></div>
-  release_date: January 28, 2022
+  release_date: March 18, 2022
   support_link: <a href="https://tanzu.vmware.com/support" target="_blank">Support</a>
   support_call_to_action: <a href="https://tanzu.vmware.com/support" target="_blank">Need Support?</a>
   support_url: https://tanzu.vmware.com/support
