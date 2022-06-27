@@ -1,7 +1,7 @@
 ---
 book_repo: pivotal-cf/docs-book-cloud-cache
 layout_repo: pivotal-cf/docs-layout-repo
-layout_repo_ref: master
+layout_repo_ref: no-index
 public_host: docs.pivotal.io
 feedback_enabled: true
 repo_link_enabled: true
