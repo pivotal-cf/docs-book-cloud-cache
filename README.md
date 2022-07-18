@@ -16,14 +16,12 @@ Examples:
 * v1.14 is published to https://docs.vmware.com/en/VMware-Tanzu-GemFire-for-VMs/1.14/tgf-vms/GUID-content-index.html
 * v1.12 is published to https://docs.pivotal.io/p-cloud-cache/1-12/index.html
 
-## Branches in this Content Repository
-
 ## Versions and Branching
 
 | **Branch Name** | **Content**      | **Location** |
 |-----------------|------------------|--------------|
 | `main`          | Development work | none         |
-| `v1.15`         | v1.15 pre-release content | https://docs-staging.vmware.com/en/VMware-Tanzu-GemFire-for-VMs/1.14/tgf-vms/GUID-index.html |
+| `v1.15`         | v1.15 pre-release content | https://docs-staging.vmware.com/en/VMware-Tanzu-GemFire-for-VMs/1.15/tanzu-gemfire-vms/GUID-index.html |
 | `v1.14`         | v1.14 content    | https://docs.vmware.com/en/VMware-Tanzu-GemFire-for-VMs/1.14/tgf-vms/GUID-index.html |
 | `v1.13`         | v1.13 content    | https://docs.vmware.com/en/VMware-Tanzu-GemFire-for-VMs/1.13/tgf-vms/GUID-index.html |
 | `v1.12`         | v1.12 content    | https://docs.pivotal.io/p-cloud-cache/1-12/index.html |
