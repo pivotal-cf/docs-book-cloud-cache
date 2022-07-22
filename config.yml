@@ -34,7 +34,7 @@ pcf_header: &local_pcc
 
 sections:
 - repository:
-    name: pivotal-cf/docs-cloud-cache
+    name: pivotal-cf/docs-gemfire-for-vms
     ref: v1.12
     at_path: content
   directory: 'p-cloud-cache/1-12'
