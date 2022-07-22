@@ -42,8 +42,8 @@ pcf_header: &local_pcc
 
 sections:
 - repository:
-    name: pivotal-cf/docs-cloud-cache
-    ref: 'v1.8-branch'
+    name: pivotal-cf/docs-gemfire-for-vms
+    ref: "v1.8"
     at_path: content
   directory: p-cloud-cache/1-8
   subnav_template: cloudcache_subnav-1-8.erb
