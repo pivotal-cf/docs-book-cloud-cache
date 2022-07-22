@@ -20,8 +20,8 @@ sections:
   no_docs: true
 
 - repository:
-    name: pivotal-cf/docs-cloud-cache
-    ref: 'v1.4-branch'
+    name: pivotal-cf/docs-gemfire-for-vms
+    ref: "v1.4"
     at_path: content
   directory: p-cloud-cache/1-4
   subnav_template: cloudcache_subnav-1-4.erb
@@ -49,8 +49,8 @@ sections:
       - <a href="http://docs.pivotal.io/archives/p-cloud-cache-1.0.8.pdf">v1.0</a>
 
 - repository:
-    name: pivotal-cf/docs-cloud-cache
-    ref: 'v1.3-branch'
+    name: pivotal-cf/docs-gemfire-for-vms
+    ref: "v1.3"
     at_path: content
   directory: p-cloud-cache/1-3
   subnav_template: cloudcache_subnav-1-3.erb
