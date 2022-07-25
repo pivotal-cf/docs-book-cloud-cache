@@ -13,7 +13,7 @@ The name of the product was originally Pivotal Cloud Cache (PCC).
 The current versions of product documentation are published to docs.vmware.com using the DocWorks/DocsDash toolchain. Older versions are published to docs.pivotal.io using Bookbinder running on a Concourse pipeline.
 
 Examples:
-* v1.14 is published to https://docs.vmware.com/en/VMware-Tanzu-GemFire-for-VMs/1.14/tgf-vms/GUID-content-index.html
+* v1.14 is published to https://docs.vmware.com/en/VMware-Tanzu-GemFire-for-VMs/1.14/tgf-vms/GUID-index.html
 * v1.12 is published to https://docs.pivotal.io/p-cloud-cache/1-12/index.html
 
 ## Versions and Branching
