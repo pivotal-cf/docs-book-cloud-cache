@@ -158,9 +158,9 @@ Click **Save**.
 
 ###Checkboxes###
 
-Include both the checkbox name and the word _checkbox_ in each reference. Avoid the phrase _check the checkbox_; it is ambiguous. Instead, use _select/clear_ or _enable/disable_. Be consistent within a single topic. For example:
+Include both the checkbox name and the word _checkbox_ in each reference. Avoid the phrase _check the checkbox_; it is ambiguous. Instead, use _select/clear_ or _activate/deactivate_. Be consistent within a single topic. For example:
 
-Select the **Disable Custom Buildpacks** checkbox.
+Select the **Dedeactivate Custom Buildpacks** checkbox.
 
 ###Clicking###
 

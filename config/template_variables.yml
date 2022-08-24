@@ -52,7 +52,6 @@ template_variables:
   app_domain: shared-domain.com
   app_domain: shared-domain.example.com
   app_sec_groups: <a href="http://docs.pivotal.io/pivotalcf/adminguide/app-sec-groups.html">Application Security Groups</a>
-  appdog_notifications: <p class='note'><strong>Note</strong>&#58; If the Cloud Foundry Notifications service is not installed in your PCF deployment, notifications are disabled.</p>
   asg_notifications_prereq:
   az: <a href="http://docs.pivotal.io/pivotalcf/customizing/understand-az.html">availability zones</a>
   cli_download: the Tools page of your Apps Manager instance
@@ -87,7 +86,6 @@ template_variables:
   diego_architecture: This topic provides an overview of the structure and components of Diego, the container management system for Pivotal Cloud Foundry versions 1.6 and newer.
   diego_deploy:
   diego_ssh_link: <a href="../../concepts/diego/ssh-conceptual.html">Diego SSH package</a>
-  disable_custom_buildpacks: <span><h2><a id="disabling-custom-buildpacks"></a>Disabling Custom Buildpacks from Ops Manager</h2> You can disable custom buildpacks using your Ops Manager Elastic Runtime tile. From the <strong>Cloud Controller</strong> tab, check the <strong>Disable Custom Buildpacks</strong> checkbox, as shown in the image below.<img src="images/disable-custom-buildpacks.png"><br><br>By default, the cf CLI gives developers the option of using a custom buildpack when they deploy apps to Elastic Runtime. To do so, they use the <code>-b</code> option to provide a custom buildpack URL with the <code>cf push</code> command. The <strong>Disable Custom Buildpacks</strong> checkbox prevents the <code>-b</code> option from being used with external buildpack URLs.<br><br>For more information about custom buildpacks, refer to the <a href="../buildpacks/">buildpacks</a> section of the PCF documentation.</span>
   domain_name: pivotal.io
   domains_shared_domains: For more information about using custom domains shared across all orgs in your Cloud Foundry account, refer to the <a href="./domains.html">Domains and Shared Domains</a> topic.
   example_domain_edu: www.example.edu
