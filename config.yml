@@ -41,7 +41,7 @@ sections:
   product_info: *local_pcc
 - repository:
     name: pivotal-cf/docs-partials
-    ref: master
+    ref: main
   directory: p-cloud-cache/partials
   no_docs: true
 
