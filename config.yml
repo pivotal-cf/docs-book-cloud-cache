@@ -1,7 +1,7 @@
 ---
 book_repo: pivotal-cf/docs-book-cloud-cache
 layout_repo: pivotal-cf/docs-layout-repo
-layout_repo_ref: master
+layout_repo_ref: main
 public_host: docs.pivotal.io
 feedback_enabled: true
 repo_link_enabled: true
@@ -41,7 +41,7 @@ sections:
   product_info: *local_pcc
 - repository:
     name: pivotal-cf/docs-partials
-    ref: master
+    ref: main
   directory: p-cloud-cache/partials
   no_docs: true
 
