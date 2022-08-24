@@ -57,7 +57,7 @@ So, for example, if you are working on docs that are also used in for open sourc
 
 ## Submitting a Pull Request
 
-This is a Bookbinder project. See [its README](https://github.com/pivotal-cf/bookbinder/blob/master/README.md) for instructions on how edits are made.
+This is a Bookbinder project. See [its README](https://github.com/pivotal-cf/bookbinder/blob/main/README.md) for instructions on how edits are made.
 
 ## Continuous Integration Technical Details
 
@@ -105,14 +105,14 @@ Make sure that you are adding your content to the correct branches of the conten
 
 To determine which branch of a content repo a book version uses:
 
-1. Confirm that you are on the correct book branch. For example, the currently published doc might be on the `master` branch
+1. Confirm that you are on the correct book branch. For example, the currently published doc might be on the `develop` branch
 or on the branch corresponding to its version number.
 
 2. Open the `config.yml` file.
 
 3. Search for the name of the content repo, for example, `docs-cloudfoundry-concepts`.
 
-4. Review the `repository` subsection for the content repo. If there is no `ref:` tag, then the repo uses the master branch. If there is a `ref` key-value pair, it specifies the branch name of the content repo. For example,
+4. Review the `repository` subsection for the content repo. If there is no `ref:` tag, then the repo uses the main branch. If there is a `ref` key-value pair, it specifies the branch name of the content repo. For example,
 
   ```
   - repository:
