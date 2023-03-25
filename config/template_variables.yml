@@ -2,9 +2,9 @@
 #Use format <%=vars.VARIABLE_NAME_HERE%> to insert the following into content. Note: Bookbinder will not convert template variables inserted into config.yml or redirects.rb.
 
 template_variables:
-  book_title: VMware Tanzu™ GemFire&reg; for VMs 1.12 Documentation
-  book_title_short: Tanzu GemFire Documentation
-  title: <span class="title-deemph">VMware Tanzu</span> Documentation
+  book_title: VMware GemFire&reg; for VMs 1.12 Documentation
+  book_title_short: GemFire Documentation
+  title: <span class="title-deemph">VMware GemFire</span> Documentation
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with VMware's enterprise-grade software."
   product_version: v1.12
@@ -18,8 +18,8 @@ template_variables:
   support_link: <a href="https://tanzu.vmware.com/support" target="_blank">Support</a>
   support_call_to_action: <a href="https://tanzu.vmware.com/support" target="_blank">Need Support?</a>
   support_url: https://tanzu.vmware.com/support
-  service_name: VMware Tanzu GemFire for VMs
-  tile_name: Tanzu GemFire
+  service_name: VMware GemFire for VMs
+  tile_name: GemFire
   api_version: 235
   gtm_account_id: GTM-MW4LZHR
   path_to_partials: /p-cloud-cache/partials
@@ -28,12 +28,12 @@ template_variables:
   platform_old: Pivotal Cloud Foundry
   platform_code: PCF
   product_name_lc: pcf
-  product_name: VMware Tanzu GemFire for VMs
-  product_full: VMware Tanzu GemFire for VMs
-  product_short: Tanzu GemFire
+  product_name: VMware GemFire for VMs
+  product_full: VMware GemFire for VMs
+  product_short: GemFire
   product_old: Pivotal Cloud Cache
-  component_product: VMware Tanzu GemFire
-  app_runtime_full: VMware Tanzu Application Service for VMs
+  component_product: VMware GemFire
+  app_runtime_full: VMware Application Service for VMs
   app_runtime_abbr: TAS for VMs
   k8s_runtime_full: VMware Enterprise PKS
   k8s_runtime_abbr: PKS
