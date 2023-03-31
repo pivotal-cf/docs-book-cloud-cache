@@ -20,10 +20,8 @@ pcf_header: &local_pcc
     - <a href="https://tanzu.vmware.com/developer/data/tanzu-gemfire/">Cloud Cache Developer Guide</a>
     - <a href="https://support.pivotal.io">Ask for Help</a>
   local_header_version_list:
-    - url_prefix: /p-cloud-cache/1-14/
-      display_name: v1.14
-    - url_prefix: /p-cloud-cache/1-13/
-      display_name: v1.13
+    - <a href="https://docs.vmware.com/en/VMware-GemFire-for-Tanzu-Application-Service/1.14/gf-tas/content-index.html">v1.14</a>
+    - <a href="https://docs.vmware.com/en/VMware-GemFire-for-Tanzu-Application-Service/1.13/gf-tas/content-index.html">v1.13</a>
     - url_prefix: /p-cloud-cache/1-12/
       display_name: v1.12
     - url_prefix: /p-cloud-cache/1-11/
