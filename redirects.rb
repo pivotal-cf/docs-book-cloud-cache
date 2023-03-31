@@ -7,7 +7,7 @@ r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
 #r301 %r{/p-cloud-cache/(?![\d-]|[p][a][r][t]+)(.*)}, "https://docs.vmware.com/en/VMware-GemFire-for-Tanzu-Application-Service/1.14/gf-tas/content-index.html"
 
 r301 %r{/p-cloud-cache/1-14/(.*)}, "https://docs.vmware.com/en/VMware-GemFire-for-Tanzu-Application-Service/1.14/gf-tas/content-index.html"
-r301 %r{/p-cloud-cache/1-13/(.*)}, "https://docs.vmware.com/en/VMware-GemFire-for-Tanzu-Application-Service/1.14/gf-tas/content-index.html"
+r301 %r{/p-cloud-cache/1-13/(.*)}, "https://docs.vmware.com/en/VMware-GemFire-for-Tanzu-Application-Service/1.13/gf-tas/content-index.html"
 
 # Redirect old versions to PDFs
 r301 %r{/p-cloud-cache/1-0/(.*)}, 'http://docs.pivotal.io/archives/p-cloud-cache-1.0.8.pdf'
