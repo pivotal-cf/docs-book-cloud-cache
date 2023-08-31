@@ -1,3 +1,16 @@
+# docs-book-cloud-cache
+Last update: 31-Aug-2023, Dave Barnes
+
+This repo is no longer in active use. It supported Bookbinder compilations of the Pivotal Cloud Cache (PCC) product, later renamed to GemFire for VMs and now known as VMware GemFire for Tanzu Application Service (GemFire for TAS).
+
+Versions 1.9 through 1.12 have been converted to PDF format and archived. The PDFs and the Bookbinder builds from which they were generated have been checked in under their respective versions in this repo.
+
+Docs for v1.13 onward are conducted in VMware DocWorks, not Bookbinder, and are generated from the `docs-gemfire-for-tas` repo.
+
+Versions 1.8 and earlier have not been archived as PDFs.
+
+The remainder of this README describes the now-obsolete Bookbinder process and is retained here for historical reference.
+
 #  Cloud Cache for PCF Documentation Book
 
 This project creates and publishes the documentation for Cloud Cache for PCF as a web application.
